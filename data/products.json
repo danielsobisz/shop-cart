@@ -5,6 +5,36 @@
       "name": "Costa Rica",
       "pic": "../content/img/product.png",
       "price": "17.99$"
+    },
+    {
+      "id": 2,
+      "name": "Mazagrande",
+      "pic": "../content/img/product.png",
+      "price": "11.99$"
+    },
+    {
+      "id": 3,
+      "name": "Exclusive",
+      "pic": "../content/img/product.png",
+      "price": "10.99$"
+    },
+    {
+      "id": 4,
+      "name": "Barista Special",
+      "pic": "../content/img/product.png",
+      "price": "5.99$"
+    },
+    {
+      "id": 5,
+      "name": "Arabica",
+      "pic": "../content/img/product.png",
+      "price": "10.99$"
+    },
+    {
+      "id": 6,
+      "name": "Fresh taste",
+      "pic": "../content/img/product.png",
+      "price": "16.99$"
     }
   ]
 }

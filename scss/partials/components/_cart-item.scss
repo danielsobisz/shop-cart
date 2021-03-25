@@ -1,0 +1,39 @@
+.c-cart-item {
+  max-width: 80%;
+
+  margin: 2rem auto;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.c-cart-item__pic {
+  width: 30%;
+}
+
+.c-cart-item__description {
+  font-family: $font-numans;
+  text-align: center;
+
+  margin-left: 3rem;
+}
+.c-cart-item__name {
+  padding-bottom: 1rem;
+}
+
+.c-cart-item__price {
+  padding-bottom: 1rem;
+}
+
+.c-cart-item__quanity-btn {
+  padding: 0.4rem;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+
+  &:hover {
+    color: $secondary-color;
+  }
+}

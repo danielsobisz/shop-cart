@@ -217,7 +217,7 @@ a {
 
 .o-image--hero {
   width: 100%;
-  padding: 30px;
+  padding: 2rem;
 }
 
 .o-wrapper--th-1 {
@@ -271,7 +271,7 @@ a {
 .c-product__description {
   text-align: center;
   font-family: "Numans";
-  font-size: 20px;
+  font-size: 19.2px;
 }
 
 .c-product__name {
@@ -301,21 +301,67 @@ a {
   position: fixed;
   top: 10px;
   right: 10px;
-  padding: 10px;
-  font-size: 48px;
+  padding: 0.5rem;
+  font-size: 64px;
   color: #2c2829;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
   cursor: pointer;
 }
 
 .c-shop-cart__icon:hover {
+  color: #8fb39a;
   -webkit-animation: shopCartWingle 0.3s ease-in;
           animation: shopCartWingle 0.3s ease-in;
 }
 
 .c-shop-cart__icon-back {
-  font-size: 36px;
-  padding: 10px;
+  font-size: 32px;
+  padding: 0.5rem;
   cursor: pointer;
+}
+
+.c-cart-item {
+  max-width: 80%;
+  margin: 2rem auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.c-cart-item__pic {
+  width: 30%;
+}
+
+.c-cart-item__description {
+  font-family: "Numans";
+  text-align: center;
+  margin-left: 3rem;
+}
+
+.c-cart-item__name {
+  padding-bottom: 1rem;
+}
+
+.c-cart-item__price {
+  padding-bottom: 1rem;
+}
+
+.c-cart-item__quanity-btn {
+  padding: 0.4rem;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.c-cart-item__quanity-btn:hover {
+  color: #8fb39a;
 }
 
 .t-head {
