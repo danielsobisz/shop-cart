@@ -1,0 +1,9 @@
+.l-hero {
+  background-color: $primary-color;
+}
+
+.l-hero--inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

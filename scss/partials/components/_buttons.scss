@@ -1,0 +1,33 @@
+.c-btn {
+  display: block;
+  position: relative;
+
+  width: 10rem;
+  height: 2.5rem;
+
+  margin: 1rem auto;
+
+  border-radius: 5px;
+
+  background-color: $secondary-color;
+
+  line-height: 2.5rem;
+
+  transition: 0.3s;
+}
+
+.c-btn__wrap {
+  font-family: $font-numans;
+
+  text-transform: uppercase;
+}
+
+.c-btn__label {
+  display: block;
+  text-align: center;
+}
+
+.c-btn:hover {
+  background-color: #000000;
+  color: $secondary-color;
+}

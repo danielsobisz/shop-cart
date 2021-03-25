@@ -1,0 +1,10 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Costa Rica",
+      "pic": "../content/img/product.png",
+      "price": "17.99$"
+    }
+  ]
+}

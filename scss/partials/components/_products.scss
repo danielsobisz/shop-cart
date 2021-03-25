@@ -1,0 +1,25 @@
+.c-products {
+  display: flex;
+
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.c-product {
+  flex-basis: 26%;
+}
+
+.c-product__description {
+  text-align: center;
+
+  font-family: $font-numans;
+  font-size: 20px;
+}
+
+.c-product__name {
+  padding-top: 1rem;
+}
+
+.c-product__price {
+  padding-top: 1rem;
+}
